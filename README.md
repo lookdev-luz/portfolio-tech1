@@ -17,7 +17,7 @@ Requer PHP 7.4 ou superior. No diretório do projeto, execute `php -S localhost:
 
 ## Personalizar dados e contatos
 
-Edite `config/portfolio.php`. Troque nome, cargo, biografia, localização e descrição SEO. Configure e-mail, telefone e WhatsApp. O número do WhatsApp deve conter apenas dígitos, incluindo código do país. O GitHub pode ser configurado com o usuário ou URL completa. URLs externas são aceitas somente com HTTP ou HTTPS. LinkedIn é opcional.
+Edite `config/portfolio.php`. Troque nome, cargo, biografia, localização e descrição SEO. Configure e valide e-mail, telefone e WhatsApp. O número do WhatsApp deve conter apenas dígitos, incluindo código do país. O GitHub pode ser configurado com o usuário ou URL completa. URLs externas são aceitas somente com HTTP ou HTTPS. LinkedIn é opcional. Os valores de exemplo (`contato@exemplo.com`, telefone/WhatsApp fictícios e usuário `seuusuario`) não geram links ativos. Substitua cada valor pelo canal que você realmente utiliza antes de divulgar o portfólio.
 
 Os dados são demonstrativos. Use `available` para indicar disponibilidade e `indexable` para controlar a indexação. O canonical precisa ser uma URL absoluta válida.
 
@@ -33,6 +33,10 @@ Envie os arquivos para a raiz web do domínio no HestiaCP, mantendo a estrutura 
 
 Enquanto o conteúdo for demonstrativo, `indexable` permanece `false` e a página envia `noindex, nofollow`. Antes de permitir indexação, substitua os dados, defina uma URL canonical HTTPS em `canonical`, revise SEO e altere `indexable` para `true`. Atualize `robots.txt` para permitir rastreamento quando fizer isso. O arquivo atual bloqueia rastreadores como precaução para o conteúdo de exemplo.
 
-## Interações e limitações
+## Conversão e interações
+
+Os textos apresentam serviços em termos do que podem ajudar o negócio a fazer, sem prometer resultados. Os links de cada serviço levam ao pedido de orçamento e selecionam a categoria correspondente. A mensagem preparada no WhatsApp contextualiza o tipo de serviço e pode ser revisada antes do envio. Se o WhatsApp não estiver configurado e houver um e-mail real válido, o formulário prepara uma mensagem de e-mail como alternativa. Nenhuma mensagem é enviada automaticamente.
+
+## Limitações
 
 O terminal é uma simulação frontend local, sem comandos de sistema. O formulário de orçamento prepara uma mensagem e abre o WhatsApp, sem armazenar dados. Sem WhatsApp configurado, o formulário orienta a usar e-mail. O site usa Google Fonts como melhoria opcional, com fontes de sistema como fallback. Com JavaScript desativado, o conteúdo continua visível, mas filtros, terminal, menu compacto e formulário não funcionam.
