@@ -1,0 +1,30 @@
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+config/portfolio.local.php
+*.pem
+*.key
+
+# Editor e sistema operacional
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*.orig
+
+# Dependências/builds acidentais, embora não sejam usados pelo projeto
+node_modules/
+vendor/
+dist/
+coverage/
+
+# Arquivos de controle do Git
+.git/
