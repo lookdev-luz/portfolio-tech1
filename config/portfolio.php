@@ -3,11 +3,11 @@ declare(strict_types=1);
 
 // Conteúdo demonstrativo. Substitua os dados antes de publicar.
 return [
-    'full_name' => 'Alex Silva (exemplo)', 'name' => 'Alex Silva', 'role' => 'Desenvolvedor Web em formação',
-    'description' => 'Sites e sistemas web feitos sob medida para ajudar pequenos negócios a apresentar seus serviços, organizar informações e simplificar tarefas.',
+    'full_name' => 'Marina Vilar (demonstração)', 'name' => 'Marina Vilar', 'role' => 'Estudante de suporte técnico e automação',
+    'description' => 'Estudos demonstrativos de suporte, organização de informações e automação de tarefas cotidianas.',
     'bio' => 'Estou no início da minha trajetória em desenvolvimento de software e gosto de entender como cada negócio funciona antes de pensar na solução. Trabalho em projetos autorais e estudos, com atenção à comunicação, à clareza e a ferramentas que sejam simples de usar.',
-    'email' => 'contato@exemplo.com', 'phone' => '+55 11 90000-0000', 'whatsapp' => '5511900000000',
-    'github_user' => 'seuusuario', 'github_url' => '', 'linkedin_url' => '', 'location' => 'São Paulo, SP (exemplo)',
+    'email' => 'marina.vilar@example.com', 'phone' => '', 'whatsapp' => '',
+    'github_user' => '', 'github_url' => '', 'linkedin_url' => '', 'location' => 'São Paulo, SP (exemplo)',
     'available' => true, 'indexable' => false, 'canonical' => '',
     'technologies' => [
         ['name'=>'PHP','icon'=>'php','description'=>'Lógica de servidor e páginas dinâmicas.'], ['name'=>'HTML5','icon'=>'html','description'=>'Estrutura semântica e acessível.'],
